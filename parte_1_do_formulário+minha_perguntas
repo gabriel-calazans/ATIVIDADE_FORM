@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Pessoais</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+          <fieldset>
+              <legend>Dados Pessoais</legend>
+            <ul>
+                <li>
+                    <label for="Nome">Nome</label>
+                    <input type="text"> 
+                </li>
+                <li>
+                    <label for="Data">Data de Nacimento</label>
+                    <input type="date" nome="data_nascimento" id="data_nascimento" class="inputuser" required>
+                </li>
+                <li>
+                    <label for="E-mail">E-mail</label>
+                    <input type="text">
+                </li>  
+                <li>
+                <label for="Telefone">Telefone</label>
+                <input type="text">
+                </li>
+            </ul>
+          </fieldset>
+        </form>
+</div>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+</head>
+<body>
+  <h2>Nomes dos integrantes do grupo.</h2>
+   <p>Artur de Sousa</p>
+   <p>Gabriel Calazans</p>
+   <p>Saulo Junio</p>
+   <p>Raquel Lopes</p>
+  <ol type="A"><li>Para que serve a tag label? Para que serve o atributo "for" nessa tag?
+    <P>Um elemento HTML label representa uma legenda para um item em uma interface de 
+      usuário. Ele pode estar associado com um <br> elemento de controle, colocando este dentro
+      do elemento label , ou usando o atributo for . Tal controle é chamado o controle etiquetado</P> </li>
+      <LI>Na tag form para que serve o atributo "method"?
+        <P>O atributo action define o local em que os dados recolhidos do formulário devem ser enviados. 
+          O atributo method define qual o método <br> HTTP para enviar os dados. O method atributo especifica 
+          como enviar dados de formulário. Os dados do formulário podem ser enviados<br> como variáveis De URL 
+          como transação de postagem HTTP.
+          </P> </LI>
+        <li>Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, qual deve
+            ser o valor do atributo "method" na tag form?
+            <p>O método "post" é mais robusto e seguro do que "get", e "post" não possui limitações de tamanho </p>
+        </li>
+  </ol>
+  
+</body>
+</html>
